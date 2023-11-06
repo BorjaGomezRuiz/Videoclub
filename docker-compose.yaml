@@ -1,0 +1,24 @@
+version: "3.1"
+
+# Services
+services:
+
+  # Apache + PHP
+  apache_php_phpini:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: 'Videoclub'
+    volumes:
+      - ./src/:/var/www/html
+      - ./.docker/php.ini:/usr/local/etc/php/php.ini
+    expose:
+      - 80
+    ports:
+      - '80:80'
+
+# Lanzar con
+# docker-compose up -d
+
+# Ver los logs con
+# docker-compose logs -f

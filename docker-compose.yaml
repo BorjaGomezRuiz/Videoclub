@@ -4,11 +4,19 @@ version: "3.1"
 services:
 
   # Apache + PHP
+<<<<<<< HEAD
+  videoclub:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: 'videoclub'
+=======
   apache_php_phpini:
     build:
       context: ./
       dockerfile: Dockerfile
     container_name: 'Videoclub'
+>>>>>>> 431e3b5799488f2300bc65e2a8c70f0d14678b3b
     volumes:
       - ./src/:/var/www/html
       - ./.docker/php.ini:/usr/local/etc/php/php.ini

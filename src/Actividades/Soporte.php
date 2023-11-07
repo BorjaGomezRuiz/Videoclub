@@ -27,6 +27,8 @@ class Soporte{
             echo "<hr><em>".$this->titulo."</em><br>".$this->precio." € (IVA no incluido)";
         }
 
+        //aa
+
 
     }
 

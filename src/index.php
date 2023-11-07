@@ -41,10 +41,8 @@
 <body>
     <h1>Videoclub</h1>
 
-    <button class="button" onclick="cambiarPagina('./Actividades/Inicio.php')" >Actividad 321</button>
-    <button class="button" onclick="cambiarPagina('./Actividades/Actividad322.html')" >Actividad 322</button>
-    <button class="button" onclick="cambiarPagina('./Actividades/Actividad323.html')" >Actividad 323</button>
-    <button class="button" onclick="cambiarPagina('./Actividades/Actividad324.html')" >Actividad 324</button>
+    <button class="button" onclick="cambiarPagina('./Actividades/Inicio.php')" >Actividades 321 - 322 - 323 - 324 - 325 -326 </button>
+    <button class="button" onclick="cambiarPagina('./Actividades/Inicio2.php')" >Actividad 327 </button>
 
     <script>
         function cambiarPagina(ruta) {

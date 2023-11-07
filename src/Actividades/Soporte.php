@@ -24,7 +24,7 @@ class Soporte{
         }
 
         public function muestraResumen(){
-            echo "<br><br>".$this->titulo."<br>".$this->precio." € (IVA no incluido)";
+            echo "<hr><em>".$this->titulo."</em><br>".$this->precio." € (IVA no incluido)";
         }
 
 

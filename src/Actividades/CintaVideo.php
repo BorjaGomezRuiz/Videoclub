@@ -1,5 +1,5 @@
 <?php
-
+    include_once "Soporte.php";
     class CintaVideo extends Soporte{
 
         private float $duracion;
@@ -12,7 +12,7 @@
         public function muestraResumen(){
             echo"<br>Pelicula en VHS:";
             Soporte::muestraResumen();
-            echo "<br>Duracion: " . $this->duracion;
+            echo "<br>Duracion: " . $this->duracion . "<br><br>";
         }
     }
 

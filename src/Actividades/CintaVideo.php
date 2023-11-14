@@ -9,7 +9,7 @@
             $this->duracion = $duracion;
         }
 
-        public function muestraResumen(){
+        public function muestraResumen(): void {
             echo"<br>Pelicula en VHS:";
             Soporte::muestraResumen();
             echo "<br>Duracion: " . $this->duracion . "<br><br>";

@@ -9,7 +9,7 @@
         $this->formatoPantalla = $formatoPantalla;
         }
 
-        public function muestraResumen(){
+        public function muestraResumen() {
             echo "<br>Película en DVD:";
             Soporte::muestraResumen();
             echo "<br>Idiomas:".$this->idiomas."<br>Formato Pantalla:".$this->formatoPantalla . "<br><br>";
